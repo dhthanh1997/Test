@@ -8,7 +8,12 @@ main()
 	printf("Nhap b = ");
 	scanf("%d", &b);
 	if(a>=b)
-		printf("a/b = %f", (float)a/b);
+	{
+		if(b==0)
+			printf("ko the in ra");
+		if(b!=0) 		
+			printf("a/b = %f", (float)a/b);
+	}
 	else
 		printf("a*b = %d", a*b);	
 }
