@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+main()
+{
+	int n;
+	printf("Nhap n = ");
+	scanf("%d", &n);
+	for(int i=0;i<n;i++)
+	{
+		if(i%2==0)
+		{
+			printf(" %d", i);
+		}
+	}
+}
+
